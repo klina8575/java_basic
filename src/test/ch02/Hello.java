@@ -7,7 +7,7 @@ public class Hello {
 		int var2 = 0206; //8진수
 		int var3 = 365; //10진수
 		int var4 = 0xB3; //16진수
-//		long var5 = 1000000000000l;
+		long var5 = 1000000000000l;
 		long var6 = 1000000000000L;
 		char c1 = 'A'; //작은 따옴표, 문자 1개
 		char c2 = 44032;
