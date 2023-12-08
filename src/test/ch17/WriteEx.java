@@ -1,4 +1,4 @@
-package test.ch17.stream;
+package test.ch17;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
