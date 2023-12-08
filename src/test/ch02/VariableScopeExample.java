@@ -1,6 +1,6 @@
 package test.ch02;
 
-public class Block {
+public class VariableScopeExample {
 
 	public static void main(String[] args) {
 		int v1 = 15;

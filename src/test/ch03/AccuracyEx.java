@@ -1,6 +1,6 @@
 package test.ch03;
 
-public class Acc {
+public class AccuracyEx {
 
 	public static void main(String[] args) {
 		/*

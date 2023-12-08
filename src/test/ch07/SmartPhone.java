@@ -1,7 +1,7 @@
 package test.ch07;
 
 //자식클래스
-public class SmartPhone extends phone {
+public class SmartPhone extends Phone {
 	//필드
 	public boolean wifi;
 	

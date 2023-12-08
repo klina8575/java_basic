@@ -1,6 +1,6 @@
 package test.ch02;
 
-public class Promotion {
+public class PromotionEx {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

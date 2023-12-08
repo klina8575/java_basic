@@ -1,17 +1,17 @@
 package test.ch07;
 
 //부모 클래스
-public class phone {
+public class Phone {
 	//필드
 	public String model; //모델명
 	public String color; //컬러
 	
 	//생성자
 	
-	public phone() {
+	public Phone() {
 		System.out.println("부모 생성자 실행");
 	}
-	public phone(String model, String color) {
+	public Phone(String model, String color) {
 		this.model = model;
 		this.color = color;
 	}
