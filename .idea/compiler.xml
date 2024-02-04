@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <file url="file://$PROJECT_DIR$/src/ch07/sec05/exam01/VeryImportantPerson.java" />
+      <file url="file://$PROJECT_DIR$/src/ch12/sec03/exam05/Member.java" />
+      <file url="file://$PROJECT_DIR$/src/ch18/sec06/CreateJsonExample.java" />
+      <file url="file://$PROJECT_DIR$/src/ch18/sec06/ParseJsonExample.java" />
+      <file url="file://$PROJECT_DIR$/src/ch18/sec07/ChatClient.java" />
+      <file url="file://$PROJECT_DIR$/src/ch18/sec07/ChatServer.java" />
+      <file url="file://$PROJECT_DIR$/src/ch18/sec07/SocketClient.java" />
+      <file url="file://$PROJECT_DIR$/src/ch20/mysql/sec09/exam01/User.java" />
+      <file url="file://$PROJECT_DIR$/src/ch20/mysql/sec09/exam02/Board.java" />
+      <file url="file://$PROJECT_DIR$/src/ch20/mysql/sec11/Board.java" />
+      <file url="file://$PROJECT_DIR$/src/ch20/oracle/sec09/exam01/User.java" />
+      <file url="file://$PROJECT_DIR$/src/ch20/oracle/sec09/exam02/Board.java" />
+      <file url="file://$PROJECT_DIR$/src/ch20/oracle/sec12/Board.java" />
+      <file url="file://$PROJECT_DIR$/src/ch02/sec11/VariableScopeExample.java" />
+      <file url="file://$PROJECT_DIR$/src/ch20/mysql/sec09/exam01/UserSelectExample.java" />
+      <file url="file://$PROJECT_DIR$/src/ch20/mysql/sec09/exam02/BoardSelectExample.java" />
+      <file url="file://$PROJECT_DIR$/src/ch20/mysql/sec11/BoardExample3.java" />
+      <file url="file://$PROJECT_DIR$/src/ch20/mysql/sec11/BoardExample4.java" />
+      <file url="file://$PROJECT_DIR$/src/ch20/mysql/sec11/BoardExample5.java" />
+      <file url="file://$PROJECT_DIR$/src/ch12/sec03/exam02/HashSetExample.java" />
+      <file url="file://$PROJECT_DIR$/src/ch20/mysql/sec11/BoardExample6.java" />
+      <file url="file://$PROJECT_DIR$/src/ch20/mysql/sec11/BoardExample7.java" />
+      <file url="file://$PROJECT_DIR$/src/ch20/mysql/sec11/BoardExample8.java" />
+      <file url="file://$PROJECT_DIR$/src/ch20/mysql/sec11/BoardExample9.java" />
+      <file url="file://$PROJECT_DIR$/src/ch20/oracle/sec12/BoardExample3.java" />
+      <file url="file://$PROJECT_DIR$/src/ch20/oracle/sec12/BoardExample4.java" />
+      <file url="file://$PROJECT_DIR$/src/ch20/oracle/sec12/BoardExample5.java" />
+      <file url="file://$PROJECT_DIR$/src/ch20/oracle/sec12/BoardExample6.java" />
+      <file url="file://$PROJECT_DIR$/src/ch20/oracle/sec12/BoardExample7.java" />
+      <file url="file://$PROJECT_DIR$/src/ch20/oracle/sec12/BoardExample8.java" />
+      <file url="file://$PROJECT_DIR$/src/ch20/oracle/sec12/BoardExample9.java" />
+      <file url="file://$PROJECT_DIR$/src/ch20/oracle/sec09/exam01/UserSelectExample.java" />
+      <file url="file://$PROJECT_DIR$/src/ch20/oracle/sec09/exam02/BoardSelectExample.java" />
+      <file url="file://$PROJECT_DIR$/src/ch13/sec02/exam03/GenericExample.java" />
+    </excludeFromCompile>
+    <bytecodeTargetLevel target="17" />
+  </component>
+</project>
