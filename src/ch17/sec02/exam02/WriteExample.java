@@ -1,22 +1,21 @@
 package ch17.sec02.exam02;
 
 import java.io.FileOutputStream;
-import java.io.IOException;
 import java.io.OutputStream;
 
 public class WriteExample {
-	public static void main(String[] args) {
-		try {
-			OutputStream os = new FileOutputStream("C:/Temp/test2.db");
+    public static void main(String[] args) {
+        try {
+            OutputStream os = new FileOutputStream("C:/Temp/test3.db");
 
-			byte[] array = { 10, 20, 30 };
+            byte[] array = {10, 20, 30, 40, 50};
 
-			os.write(array);
+            os.write(array);
 
-			os.flush();
-			os.close();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-	}
+            os.flush();
+            os.close();
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
 }

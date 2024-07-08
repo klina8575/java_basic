@@ -1,12 +1,10 @@
 package ch07.sec06.package2;
 
-import ch07.sec06.package1.A;
-
 public class C {
-	//메소드 선언
-	public void method() {
-		//A a = new A();		//x
-		//a.field = "value"; 		//x
-		//a.method(); 			//x
-	}
+    public void method() {
+        //protected는 다른 패키지에 있는 클래스에서 사용 X
+//        A a = new A();
+//        a.field = "value";
+//        a.method();
+    }
 }

@@ -1,20 +1,17 @@
 package ch07.sec08.exam01;
 
 public class CarExample {
-	public static void main(String[] args) {
-		//Car 객체 생성
-		Car myCar = new Car();
+    public static void main(String[] args) {
+        Car myCar = new Car();
 
-		//Tire 객체 장착
-		myCar.tire = new Tire();
-		myCar.run();
+        //필드를 이용해 자동타입변환이 일어난다
+        myCar.tire = new HankookTire(); //Tire tire = new HankookTire()
+        myCar.run(); //tire.roll(); -> 오버라이드 된 메소드가 있으면 자식클래스에 있는 메소드 사용
 
-		//HankookTire 객체 장착
-		myCar.tire = new HankookTire();
-		myCar.run();
+        myCar.tire = new KumhoTire(); //Tire tire = new KumhoTire()
+        myCar.run(); //tire.roll() -> 오버라이드 된 메소드가 있으면 자식클래스에 있는 메소드 사용
 
-		//KumhoTire 객체 장착
-		myCar.tire = new KumhoTire();
-		myCar.run();
-	}
+        myCar.tire = new Tire(); //Tire tire = new Tire()
+        myCar.run();
+    }
 }

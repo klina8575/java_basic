@@ -2,8 +2,8 @@ package ch05.sec05;
 
 public class CharAtExample {
 	public static void main(String[] args) {
-		String ssn = "9506241230123";
-		char sex = ssn.charAt(6);
+		String ssn = "9506241230123"; //주민번호
+		char sex = ssn.charAt(6); //성별에 해당하는 번호 추출
 		switch (sex) {
 			case '1':
 			case '3':

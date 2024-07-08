@@ -6,7 +6,7 @@ public class Car {
 
 	//메소드 선언
 	public void speedUp() {
-		speed += 1;
+		speed ++;
 	}
 
 	//final 메소드

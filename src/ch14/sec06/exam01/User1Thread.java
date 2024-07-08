@@ -1,18 +1,22 @@
 package ch14.sec06.exam01;
 
 public class User1Thread extends Thread {
-	private Calculator calculator;
+    private Calculator calculator;
 
-	public User1Thread() {
-		setName("User1Thread");
-	}
+    public User1Thread() {
+        setName("User1Thread"); //스레드 이름 변경
+    }
 
-	public void setCalculator(Calculator calculator) {
-		this.calculator = calculator;
-	}
+    public void setCalculator(Calculator calculator) {
+        this.calculator = calculator;
+    }
 
-	@Override
-	public void run() {
-		calculator.setMemory1(100);
-	}
+    @Override
+    public void run() {
+        try {
+            calculator.setMemory1(100);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+    }
 }

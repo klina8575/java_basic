@@ -2,15 +2,14 @@ package ch05.sec09;
 
 public class ArrayCopyExample {
 	public static void main(String[] args) {
-		//길이 3인 배열
-		String[] oldStrArray = { "java", "array", "copy" };
-		//길이 5인 배열을 새로 생성
+		String[] oldStrArray = {"java", "array", "copy"};
 		String[] newStrArray = new String[5];
-		//배열 항목 복사
-		System.arraycopy( oldStrArray, 0, newStrArray, 0, oldStrArray.length);
-		//배열 항목 출력
-		for(int i=0; i<newStrArray.length; i++) {
-			System.out.print(newStrArray[i] + ", ");
+
+		//System.arraycopy(원본배열, 원본배열 인덱스(어디서부터 복사를 할건지), 새배열, 새배열 인덱스(어디서부터 붙여넣을지), 복사할 배열의 갯수);
+		System.arraycopy(oldStrArray, 0, newStrArray, 0, 3);
+
+		for (int i = 0; i < newStrArray.length ; i++) {
+			System.out.println(newStrArray[i]);
 		}
 	}
 }

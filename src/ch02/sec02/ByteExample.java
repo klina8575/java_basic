@@ -6,8 +6,8 @@ public class ByteExample {
 		byte var2 = -30;
 		byte var3 = 0;
 		byte var4 = 30;
-		byte var5 = 127;
-		//byte var6 = 128; //컴파일 에러(Type mismatch: cannot covert from int byte)
+		byte var5 = 127; //2진수: 0111 1111 -> 맨 앞자리가 남는다
+		//byte var6 = 128; //2진수: 1000 0000 -> 맨 앞자리는 항상 부호비트로 쓰이므로 사용 X
 
 		System.out.println(var1);
 		System.out.println(var2);

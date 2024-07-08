@@ -1,12 +1,12 @@
 package ch07.sec08.exam01;
 
 public class Car {
-	//필드 선언
-	public Tire tire;
+    //필드로 다형성(오버라이드 + 자동타입변환)을 구현하는 방법
+    //필드에서 자동타입 변환이 발생되도록 한다.
+    public Tire tire;
 
-	//메소드 선언
-	public void run() {
-		//tire 필드에 대입된 객체의 roll() 메소드 호출
-		tire.roll();
-	}
+    public void run() {
+        tire.roll();
+    }
+
 }

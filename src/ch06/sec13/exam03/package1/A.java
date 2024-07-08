@@ -1,33 +1,25 @@
 package ch06.sec13.exam03.package1;
 
 public class A {
-	//public 접근 제한을 갖는 필드 선언
-	public int field1;
-	//default 접근 제한을 갖는 필드 선언
-	int field2;
-	//private 접근 제한을 갖는 필드 선언
-	private int field3;
+    //필드와 메소드에 접근제한자 걸기
+    public int field1;
+    int field2; //같은 클래스, 같은 패키지에서 접근가능
+    private int field3; //같은 클래스에서만 접근가능
 
-	//생성자 선언
-	public A() {
-		field1 = 1; 		//o
-		field2 = 1; 		//o
-		field3 = 1; 		//o
+    public A() {
+        //같은 클래스내에 있는 필드에 접근하기
+        field1 = 1;
+        field2 = 1;
+        field3 = 1;
 
-		method1(); 			//o
-		method2(); 			//o
-		method3(); 			//o
-	}
+        //같은 클래스내에 있는 메소드에 접근하기
+        method1();
+        method2();
+        method3();
+    }
 
-	//public 접근 제한을 갖는 메소드 선언
-	public void method1() {
-	}
-	
-	//default 접근 제한을 갖는 메소드 선언
-	void method2() {
-	}
-	
-	//private 접근 제한을 갖는 메소드 선언
-	private void method3() {
-	}
+    public void method1() {}
+    void method2() {} //같은 클래스, 같은 패키지에서 접근가능
+    private void method3() {} //같은 클래스에서만 접근가능
+
 }

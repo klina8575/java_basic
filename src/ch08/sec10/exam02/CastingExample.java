@@ -1,17 +1,16 @@
 package ch08.sec10.exam02;
 
 public class CastingExample {
-	public static void main(String[] args) {
-		//인터페이스 변수 선언과 구현 객체 대입
-		Vehicle vehicle = new Bus();
+    public static void main(String[] args) {
+        Vehicle vehicle = new Bus(); //자동타입변환
+        vehicle.run();
 
-		//인터페이스를 통해서 호출
-		vehicle.run();
-		//vehicle.checkFare(); (x)
+        //자식 클래스에 메소드를 호출하기 위해 강제타입변환
+        Bus bus = (Bus)vehicle;
+        bus.run();
+        bus.checkFare();
 
-		//강제 타입 변환후 호출
-		Bus bus = (Bus) vehicle; 
-		bus.run();
-		bus.checkFare();
-	}
+
+
+    }
 }

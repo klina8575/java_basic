@@ -1,24 +1,27 @@
 package ch07.sec07.exam03;
 
 public class ChildExample {
-	public static void main(String[] args) {
-		//객체 생성 및 자동 타입 변환
-		Parent parent = new Child();
-		
-		//Parent 타입으로 필드와 메소드 사용
-		parent.field1 = "data1";
-		parent.method1();
-		parent.method2();
-		/*
-		parent.field2 = "data2";      	//(불가능)
-		parent.method3();         		//(불가능)
-		*/
-		
-		//강제 타입 변환
-		Child child = (Child) parent;
-		
-		//Child 타입으로 필드와 메소드 사용
-		child.field2 = "data2";  		//(가능)
-		child.method3();     			//(가능)
-	}
+    public static void main(String[] args) {
+        //자동타입변환
+        Parent parent = new Child();
+
+        parent.field1 = "data1";
+        parent.method1();
+        parent.method2();
+
+//        parent.field2 = "data2";
+//        parent.method3();
+
+        //자식 클래스에 있는 멤버를 사용하기 위해 강제타입변환 진행
+        Child child = (Child)parent;
+
+        child.field2 = "data2";
+        child.method3();
+
+        //강제타입변환시 부모클래스에 있는 것도 사용가능
+        child.field1 = "data1";
+        child.method1();
+        child.method2();
+
+    }
 }

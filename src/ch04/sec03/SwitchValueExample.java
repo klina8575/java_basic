@@ -24,8 +24,7 @@ public class SwitchValueExample {
 			case "A" -> 100;
 			case "B" -> {
 				int result = 100 - 20;
-				//Java 13부터 가능
-				yield result;
+				yield result; //연산식이나 다른 코드 실행 후 값을 저장해야 할시 yield를 사용
 			}
 			default -> 60;
 		};

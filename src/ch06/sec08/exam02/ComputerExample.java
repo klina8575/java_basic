@@ -23,6 +23,7 @@ public class ComputerExample {
 
 		//sum() 메소드 호출 시 배열을 제공하고
 		//합산 결과를 리턴 받아 result4 변수에 대입
+		//가변길이 매개변수는 배열을 받을 수 있다
 		int result4 = myCom.sum(new int[] { 1, 2, 3, 4, 5 });
 		System.out.println("result4: " + result4);
 	}

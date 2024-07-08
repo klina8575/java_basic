@@ -1,19 +1,17 @@
 package ch07.sec10.exam01;
 
-public class Phone {
-	//필드 선언
-	String owner;
+//abstract: 오로지 상속만을 위한 클래스(객체 생성 X)
+public abstract class Phone {
+    String owner;
 
-	//생성자 선언
-	Phone(String owner) {
-		this.owner = owner;
-	}
+    Phone(String owner) {
+        this.owner = owner;
+    }
 
-	//메소드 선언
-	void turnOn() {
-		System.out.println("폰 전원을 켭니다.");
-	}
-	void turnOff() {
-		System.out.println("폰 전원을 끕니다.");
-	}
+    void turnOn() {
+        System.out.println("폰 전원을 켭니다.");
+    }
+    void turnOff() {
+        System.out.println("폰 전원을 끕니다.");
+    }
 }

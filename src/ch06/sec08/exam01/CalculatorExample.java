@@ -2,25 +2,33 @@ package ch06.sec08.exam01;
 
 public class CalculatorExample {
 	public static void main(String[] args) {
-		//Calculator 객체 생성
-		Calculator myCalc = new Calculator();
-		
-		//리턴값이 없는 powerOn() 메소드 호출
-		myCalc.powerOn();
+		//계산기 객체생성
+		Calculator myCal = new Calculator();
 
-		//plus 메소드 호출 시 5와 6을 매개값으로 제공하고,
-		//덧셈 결과를 리턴 받아 result1 변수에 대입
-		int result1 = myCalc.plus(5, 6);
+		//계산기 전원 on
+		myCal.powerOn();
+
+		//메소드의 return 타입과 같게 결과를 받을 변수 타입을 작성해준다
+		int result1 = myCal.plus(5, 6);
 		System.out.println("result1: " + result1);
 
 		int x = 10;
 		int y = 4;
-		//divide() 메소드 호출 시 변수 x와 y의 값을 매개값으로 제공하고,
-		//나눗셈 결과를 리턴 받아 result2 변수에 대입
-		double result2 = myCalc.divide(x, y);
+		double result2 = myCal.divide(x, y);
 		System.out.println("result2: " + result2);
 
-		//리턴값이 없는 powerOff() 메소드 호출
-		myCalc.powerOff();
+		int result3 = myCal.minus(10, 5);
+		System.out.println("result3: " + result3);
+
+		int result4 = myCal.multi(2, 3);
+		System.out.println("result4: " + result4);
+
+
+		//계산기 전원 off
+		myCal.powerOff();
+
+		System.out.println();
+
+		myCal.innerMethod();
 	}
 }

@@ -1,7 +1,6 @@
 package ch16.sec01;
 
-@FunctionalInterface
+@FunctionalInterface //함수형 인터페이스로 사용하겠다라고 지정(선택사항)
 public interface Calculable {
-	//추상 메소드
-	void calculate(int x, int y);
+    void calculate(int x, int y);
 }
