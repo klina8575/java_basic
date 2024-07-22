@@ -3,14 +3,14 @@ package ch02.sec01;
 public class VariableInitializationExample {
 	public static void main(String[] args) {
 		//변수 선언(메모리에 값이 할당 X)
-		int value;
+		int age;
 
-		value = 20; //메모리에 값이 할당된다
+		age = 20; //메모리에 값이 할당된다
 
 		//변수 선언과 동시에 메모리에 값 할당
-		int value2 = 10;
+		double score = 90.22;
 
-		System.out.println("value 값: " + value); //ctrl + d:라인복사
-		System.out.println("value2 값: " + value2);
+		System.out.println("age 값: " + age); //ctrl + d:라인복사
+		System.out.println("score 값: " + score);
 	}
 }
